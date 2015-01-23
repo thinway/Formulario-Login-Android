@@ -76,12 +76,27 @@
     </LinearLayout>
 
 
-    <Button
-        android:id="@+id/submit_button"
+    <LinearLayout
+        android:id="@+id/botonera"
         android:layout_below="@id/fields"
-        android:layout_alignRight="@id/fields"
-        android:text="@string/submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="50"
+            android:id="@+id/submit_button"
+            android:layout_below="@id/fields"
+            android:layout_alignRight="@id/fields"
+            android:text="@string/submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_weight="50"
+            android:text="@string/cancel_button_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
 
 </RelativeLayout>

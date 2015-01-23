@@ -15,4 +15,6 @@
     <string name="confirm_label">Confirmar:</string>
     <string name="confirm_input_hint">Confirmar contraseña</string>
     <string name="submit">Registrar</string>
+    <string name="cancel_button_text">Cancelar</string>
+
 </resources>
