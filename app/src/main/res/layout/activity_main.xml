@@ -12,6 +12,7 @@
     <TextView
         android:background="#FF0000"
         android:text="@string/hello_world"
+        android:textSize="32sp"
         android:layout_width="200dp"
         android:layout_height="wrap_content" />
 
