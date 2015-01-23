@@ -10,5 +10,9 @@
 
     <string name="username_label">Usuario:</string>
     <string name="username_input_hint">Introduzca su usuario</string>
-    <string name="submit">Entrar</string>
+    <string name="password_label">Password:</string>
+    <string name="password_input_hint">Introduzca su contraseña</string>
+    <string name="confirm_label">Confirmar:</string>
+    <string name="confirm_input_hint">Confirmar contraseña</string>
+    <string name="submit">Registrar</string>
 </resources>
