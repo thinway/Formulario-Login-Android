@@ -5,18 +5,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/ok_button"
-        android:text="@string/ok"
-        android:textSize="32sp"
+    <TextView
+        android:id="@+id/username_label"
+        android:text="@string/username_label"
+        android:textSize="25sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_toRightOf="@id/username_label"
+        android:hint="@string/username_input_hint"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content" />
+
     <Button
-        android:id="@+id/cancel_button"
-        android:layout_below="@id/ok_button"
-        android:text="@string/cancel"
-        android:textSize="32sp"
+        android:id="@+id/submit_button"
+        android:layout_below="@id/username_input"
+        android:layout_alignRight="@id/username_input"
+        android:text="@string/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
